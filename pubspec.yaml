@@ -1,0 +1,17 @@
+name: keyed_collection_widgets_tut
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  enum_map: ^0.3.0
+  flutter: { sdk: flutter }
+  keyed_collection_widgets: ^0.4.3
+
+dev_dependencies:
+  build_runner: ^2.4.5
+  enum_map_gen: ^0.3.0
