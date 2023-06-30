@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // The type to distinguish the tabs:
       home: DefaultKeyedTabController<MyTabs>.fromKeys(
-        keys: MyTabs.values, // Source of truth for the order.
+        keys: MyTabs.values, // Source of truth for the length and the order.
         child: Scaffold(
           appBar: AppBar(
             bottom: KeyedTabBar.withDefaultController(
